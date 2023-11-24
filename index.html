@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Mano Raj</title>
+<meta name=title content="Mano Raj - I'm User Interface Designer & Developer.">
+<link rel="shortcut icon" href=./favicon.svg type=image/svg+xml>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel=stylesheet>
+<link rel=stylesheet href=./assets/style.css>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css>
+<script src=https://unpkg.com/boxicons@2.1.3/dist/boxicons.js></script>
+<link rel=preload as=image href=./assets/img/hero-banner.jpg>
+<link rel=preload as=image href=./assets/img/Blog.svg>
+</head>
+<body>
+<header class=header data-header>
+<div class=container>
+<a href=#home class=logo>
+<h4>M A N O R A J</h4>
+</a>
+<nav class=navbar data-navbar>
+<div class=navbar-top>
+<a href=# class=logo>
+<h3>M A N O R A J</h3>
+</a>
+<button class=nav-close-btn aria-label="close menu" data-nav-toggler>
+<ion-icon name=close-outline aria-hidden=true></ion-icon>
+</button>
+</div>
+<ul class=navbar-list>
+<li>
+<a href=#home class=navbar-link>Home</a>
+</li>
+<li>
+<a href=#about class=navbar-link>About</a>
+</li>
+<li>
+<a href=#project class=navbar-link>Projects</a>
+</li>
+<li>
+<a href=#contact class=navbar-link>Contact</a>
+</li>
+</ul>
+<div class=wrapper>
+<a href=mailto:manorajshri500@gmail.com class=contact-link>manorajshri500@gmail.com</a>
+<a href=tel:001234567890 class=contact-link>6374073307</a>
+</div>
+<ul class=social-list>
+<a href="https://drive.google.com/drive/folders/1LWi5_L18oAKVSVNaILFdDZZnSIFvzDWV?usp=drive_link" class="btn btn-secondary">Resume</a>
+</ul>
+</nav>
+<button class=nav-open-btn aria-label="open menu" data-nav-toggler>
+<ion-icon name=menu-outline aria-hidden=true></ion-icon>
+</button>
+<div class=overlay data-nav-toggler data-overlay></div>
+</div>
+</header>
+<main>
+<article>
+<section class=home-section id="home">
+<div id=pointer>
+<svg height=100 width=100>
+<circle cx=50 cy=50 r=20 stroke=orange stroke-width=3 fill=white />
+</svg>
+</div>
+<div class=image-container id=imageContainer>
+<img src=assets/img/manopng.jpg alt="Your Image" id=image>
+<div class=pop-text id=popText>Hey, click me.</div>
+</div>
+<h1>Hi I am Mano Raj</h1>
+<h2>
+I am Developing creative & <br>Interactive web apps with UX/UI
+</h2>
+<div class="social-link d-flex justify-content-center mt-35">
+<a href=https://www.linkedin.com/in/mano-raj-085275200/ target=_blank>
+<box-icon type=logo name=linkedin-square style=width:50px;height:50px color=#0a66c2></box-icon>
+</a>
+<a href="https://github.com/Manoraj-007" target=_blank><box-icon name=github type=logo style=width:50px;height:50px></box-icon></a>
+<a href=https://www.behance.net/manorajreddy target=_blank><box-icon name=behance type=logo style=width:50px;height:50px color=#053eff></box-icon></a>
+<a href=mailto:manorajshri500@gmail.com target=_blank><box-icon name=gmail type=logo color=#d07624 style=width:50px;height:50px></box-icon></a>
+</div>
+</section>
+<section class="section about" aria-label=about id=about>
+<div class=container>
+<div class=wrapper>
+<div data-reveal=left>
+<h2 class="h2 section-title">What I Do?</h2>
+<p class=section-text>
+I specialize in crafting distinctive logos, developing comprehensive branding strategies, designing intuitive UI screens, and building engaging websites
+</p>
+</div>
+<ul class=progress-list data-reveal=right>
+<li class=progress-item>
+<div class=label-wrapper>
+<p>Figma</p>
+<span class=span>90 %</span>
+</div>
+<div class=progress>
+<div class=progress-fill style=width:90%;background-color:#c7b1dd></div>
+</div>
+</li>
+<li class=progress-item>
+<div class=label-wrapper>
+<p>Adobe Illustrator</p>
+<span class=span>70 %</span>
+</div>
+<div class=progress>
+<div class=progress-fill style=width:70%;background-color:#8caeec></div>
+</div>
+</li>
+<li class=progress-item>
+<div class=label-wrapper>
+<p>Adobe Photoshop</p>
+<span class=span>50%</span>
+</div>
+<div class=progress>
+<div class=progress-fill style=width:50%;background-color:#b0d4c1></div>
+</div>
+</li>
+<li class=progress-item>
+<div class=label-wrapper>
+<p>Adobe XD</p>
+<span class=span>70 %</span>
+</div>
+<div class=progress>
+<div class=progress-fill style=width:70%;background-color:#e3a6b6></div>
+</div>
+</li>
+</ul>
+</div>
+<ul class="grid-list justify-btw">
+<li data-reveal=bottom>
+<div class=about-card>
+<div class=card-icon>
+<img src=./assets/img/icon-1.svg width=52 height=52 loading=lazy alt="web design icon">
+</div>
+<h3 class="h4 card-title">Web Design</h3>
+<p class=card-text>
+I specialize in creating immersive websites that blend seamless functionality with captivating aesthetics
+</p>
+</div>
+</li>
+<li data-reveal=bottom data-reveal-delay=0.25s>
+<div class=about-card>
+<div class=card-icon>
+<img src=./assets/img/icon-2.svg width=52 height=52 loading=lazy alt="mobile design icon">
+</div>
+<h3 class="h4 card-title">UX UI Design</h3>
+I specialize in crafting immersive user experiences by blending user psychology, creative innovation, and intuitive interface design
+<p></p>
+</div>
+</li>
+<li data-reveal=bottom data-reveal-delay=0.5s>
+<div class=about-card>
+<div class=card-icon>
+<img src=./assets/img/icon-3.svg width=52 height=52 loading=lazy alt="web development icon">
+</div>
+<h3 class="h4 card-title">Development</h3>
+<p class=card-text>
+I specialize in crafting robust front-end solutions that prioritize performance, accessibility, and an exceptional user experience
+</p>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="section project" aria-labelledby=project-label id=project>
+<div class=container>
+<div class=title-wrapper data-reveal=top>
+<div>
+<h2 class="h2 section-title" id=project-label>Latest Projects</h2>
+<p class=section-text>
+Check out some of my latest projects with creative ideas.
+</p>
+</div>
+<a href=https://www.behance.net/manorajreddy class="btn btn-secondary">See All Projects</a>
+</div>
+<ul class=grid-list>
+<li>
+<div class="project-card project-card-1" style=background-color:#f8f5fb>
+<div class=card-content data-reveal=left>
+<p class=card-tag style=color:#a07cc5>UX UI DESIGN</p>
+<h3 class="h3 card-title">Worxtream</h3>
+<p class=card-text>
+Ehancing User experience through visual identification of bots
+</p>
+<a href=https://www.behance.net/gallery/171698815/Real-time-project-solution-for-our-working-platform class=btn-text target=_blank style=color:#a07cc5>
+<span class=span>See Project</span>
+<ion-icon name=arrow-forward-outline aria-hidden=true></ion-icon>
+</a>
+</div>
+<figure class=card-banner data-reveal=right>
+<img src=./assets/img/work.png width=650 height=370 loading=lazy alt="UX UI Design" class=w-100>
+</figure>
+</div>
+</li>
+<li>
+<div class="project-card project-card-2" style=background-color:#f1f5fd>
+<div class=card-content data-reveal=right>
+<p class=card-tag style=color:#3f78e0>UX UI DESIGN</p>
+<h3 class="h3 card-title">BREADLOAF </h3>
+<p class=card-text>
+Connecting restaurants as a donors and NGO's as a recipients to prevent food waste and ensure surplus food reaches those in needs
+</p>
+<a href=https://www.behance.net/gallery/168978797/Prevent-Unused-Food-by-Bread-Loaf class=btn-text style=color:#3f78e0>
+<span class=span>See Project</span>
+<ion-icon name=arrow-forward-outline aria-hidden=true></ion-icon>
+</a>
+</div>
+<figure class=card-banner data-reveal=left>
+<img src=./assets/img/breadloaf.png width=600 height=367 loading=lazy alt="Web Design" class=w-100>
+</figure>
+</div>
+</li>
+<li>
+<div class="project-card project-card-3" style=background-color:#f5faf7>
+<div class=card-content data-reveal=left>
+<p class=card-tag style=color:#7cb798>UX UI DESIGN</p>
+<h3 class="h3 card-title">TICK BOOK</h3>
+<p class=card-text>
+Tickbook is destination for hassle-free movie ticket bookings, featuring a streamlined reservation process. Our platform caters specifically to the needs of busy commuters, dedicated workers, and residents in the suburban outskirts of bustling metropolitan areas. With Tickbook, your cinematic journey is not only affordable but also exceptionally convenient.
+</p>
+<a href=https://www.behance.net/gallery/184948085/Tickbook-Case-Study class=btn-text style=color:#7cb798>
+<span class=span>See Project</span>
+<ion-icon name=arrow-forward-outline aria-hidden=true></ion-icon>
+</a>
+</div>
+<figure class=card-banner data-reveal=right>
+<img src=./assets/img/tickbook.jpg width=600 height=367 loading=lazy alt="Web Design" class=w-100>
+</figure>
+</div>
+</li>
+<li>
+<div class="project-card project-card-4" style=background-color:#fcf4f6>
+<div class=card-content data-reveal=left>
+<p class=card-tag style=color:#d16b86>UX UI DESIGN</p>
+<h3 class="h3 card-title">GUVI REDESIGN</h3>
+<p class=card-text>
+Guvi embarked on a task to revamp one of their pages, with the goal of improving its overall design and usability. To guide the revamp, They provided a style guide to ensure consistency and cohesiveness throughout the page.
+</p>
+<a href=https://www.behance.net/gallery/168993647/Revamping-the-Guvi-website class=btn-text style=color:#d16b86>
+<span class=span>See Project</span>
+<ion-icon name=arrow-forward-outline aria-hidden=true></ion-icon>
+</a>
+</div>
+<figure class=card-banner data-reveal=right>
+<img src=./assets/img/guvi.png width=620 height=370 loading=lazy alt="Mobile Design" class=w-100>
+</figure>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section class="section contact" aria-label=contact id=contact>
+<div class=container>
+<div class=contact-card>
+<div class=contact-content data-reveal=left>
+<div class=card-icon>
+<h4>M A N O R A J</h4>
+</div>
+<h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+<p class=section-text>
+I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from this contact form and I will get back to you shortly.
+</p>
+</div>
+<form action=https://formspree.io/f/meqbbjrr class=contact-form data-reveal=right method=post>
+<div class=input-wrapper>
+<input name=name placeholder="Name *" required class=input-field>
+<input type=email name=email_address placeholder="Email *" required class=input-field>
+</div>
+<textarea name=message placeholder="Message *" required class=input-field></textarea>
+<button type=submit class="btn btn-secondary">Send message</button>
+</form>
+</div>
+</div>
+</section>
+</article>
+</main>
+<footer class=footer>
+<div class=container>
+<p class=copyright>
+Code by Mano Raj
+</p>
+<ul class=social-list>
+<li>
+<a href=https://www.linkedin.com/in/mano-raj-085275200/ target=_blank class=social-link>
+<svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" style=fill:rgba(0,0,0,1)><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg>
+</a>
+</li>
+<li>
+<a href=mailto:manorajshri500@gmail.com class=social-link>
+<svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" style=fill:rgba(0,0,0,1)><path d="m18.73 5.41-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 0 0 2 7.05v11.59A1.36 1.36 0 0 0 3.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0 0 22 18.64V7.05a2 2 0 0 0-3.27-1.64z"></path></svg>
+</a>
+</li>
+<li>
+<a href=https://github.com/Manoraj-007 class=social-link>
+<svg xmlns=http://www.w3.org/2000/svg width=24 height=24 viewBox="0 0 24 24" style=fill:rgba(0,0,0,1)><path fill-rule=evenodd clip-rule=evenodd d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg>
+</a>
+</li>
+</ul>
+</div>
+</footer>
+<script src=./assets/javascript.js></script>
+<script type=module src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js></script>
+<script nomodule src=https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js></script>
+<script src=https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin=anonymous referrerpolicy=no-referrer></script>
+</body>
+</html>
